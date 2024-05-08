@@ -11,6 +11,28 @@ class AppStyle {
 
   static const String montserrat = 'Montserrat';
 
+  static const headline = TextStyle(
+    fontFamily: montserrat,
+    fontWeight: FontWeight.w500,
+    fontSize: 30,
+    letterSpacing: 0,
+    color: primarygrey,
+  );
+  static const title1 = TextStyle(
+    fontFamily: montserrat,
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
+    letterSpacing: 1.2,
+    color: primarygrey,
+  );
+  static const title2 = TextStyle(
+    fontFamily: montserrat,
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+    letterSpacing: 1.2,
+    color: primarywhite,
+  );
+
   static const subtitle = TextStyle(
     fontFamily: montserrat,
     fontWeight: FontWeight.w300,
@@ -19,25 +41,10 @@ class AppStyle {
     color: primarygrey,
   );
 
-  static const headline = TextStyle(
-    fontFamily: montserrat,
-    fontWeight: FontWeight.w500,
-    fontSize: 28,
-    letterSpacing: 0,
-    color: primarygrey,
-  );
-  static const title1 = TextStyle(
-    fontFamily: montserrat,
-    fontSize: 15,
-    fontWeight: FontWeight.w700,
-    letterSpacing: 1.2,
-    color: primarygrey,
-  );
-
   static const subtitle2 = TextStyle(
     fontFamily: montserrat,
-    fontWeight: FontWeight.w300,
-    fontSize: 12,
+    fontWeight: FontWeight.w700,
+    fontSize: 16,
     letterSpacing: 0,
     color: primarygrey,
   );
