@@ -61,7 +61,7 @@ class TransactionView extends ConsumerWidget {
           "Transaction Record",
           style: AppStyle.title1.copyWith(color: AppColor.yellowAccent),
         ),
-        Container(
+        SizedBox(
           height: 430,
           child: ListView.builder(
               scrollDirection: Axis.vertical,
@@ -71,12 +71,13 @@ class TransactionView extends ConsumerWidget {
               itemBuilder: (constext, index) {
                 return Container(
                   margin: const EdgeInsets.all(5),
+                  padding: const EdgeInsets.only(right: 20),
                   height: 80,
                   decoration: BoxDecoration(
                       border: Border.all(color: AppColor.yellowAccent),
                       borderRadius: BorderRadius.circular(12)),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Padding(
@@ -87,7 +88,7 @@ class TransactionView extends ConsumerWidget {
                         ),
                       ),
                       Text(
-                        record[index].amount.toString(),
+                        "${record[index].amount}",
                         style: AppStyle.headline,
                       )
                     ],

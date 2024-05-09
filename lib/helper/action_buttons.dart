@@ -52,7 +52,7 @@ class RoundedOutLineButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15)),
         child: Text(
           actionLable,
-          style: AppStyle.subtitle2.copyWith(color: AppColor.primaryblack),
+          style: AppStyle.subtitle700.copyWith(color: AppColor.primaryblack),
         ),
       ),
     );
@@ -81,7 +81,7 @@ class RoundedFillButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15)),
         child: Text(
           actionLable,
-          style: AppStyle.subtitle2.copyWith(color: AppColor.primaryblack),
+          style: AppStyle.subtitle700.copyWith(color: AppColor.primaryblack),
         ),
       ),
     );

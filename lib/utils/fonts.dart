@@ -18,6 +18,13 @@ class AppStyle {
     letterSpacing: 0,
     color: primarygrey,
   );
+  static const headline2 = TextStyle(
+    fontFamily: montserrat,
+    fontWeight: FontWeight.w500,
+    fontSize: 35,
+    letterSpacing: 0,
+    color: primarygrey,
+  );
   static const title1 = TextStyle(
     fontFamily: montserrat,
     fontSize: 18,
@@ -33,7 +40,7 @@ class AppStyle {
     color: primarywhite,
   );
 
-  static const subtitle = TextStyle(
+  static const subtitle300 = TextStyle(
     fontFamily: montserrat,
     fontWeight: FontWeight.w300,
     fontSize: 14,
@@ -41,7 +48,15 @@ class AppStyle {
     color: primarygrey,
   );
 
-  static const subtitle2 = TextStyle(
+  static const subtitle400 = TextStyle(
+    fontFamily: montserrat,
+    fontWeight: FontWeight.w400,
+    fontSize: 16,
+    letterSpacing: 0,
+    color: primarygrey,
+  );
+
+  static const subtitle700 = TextStyle(
     fontFamily: montserrat,
     fontWeight: FontWeight.w700,
     fontSize: 16,
